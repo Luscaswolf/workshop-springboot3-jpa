@@ -13,7 +13,7 @@ import com.mindi.course.entites.User;
 	
 	@GetMapping
 	public ResponseEntity<User> findall(){
-		User u = new User(1L, "bolo", "mogli@gmail.com", "9999999", "123");
+		User u = new User(1L, "Lucas", "Lucas@gmail.com", "9999999", "123");
 		return ResponseEntity.ok().body(u);
 	}
 
